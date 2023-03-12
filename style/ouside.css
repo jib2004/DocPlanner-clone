@@ -4,5 +4,68 @@ ul li ul li{
  
 ul li:hover ul li{
     display: block !important;
-    
+
 }
+
+
+.box {
+    position: relative ;
+    animation:textMove 2s linear;
+    /* animation-delay: 5s; */
+}
+
+.box1{ 
+    animation-delay: 0.3;
+    animation-fill-mode: forwards;
+    visibility: hidden;
+}
+
+.box2{
+    animation-delay: 0.5s;
+    animation-fill-mode: forwards;
+    visibility: hidden;
+
+
+}
+
+.box3{
+    animation-delay: 0.7s;
+    animation-fill-mode: forwards;
+    visibility: hidden;
+}
+
+@keyframes textMove{
+    from{
+        /* opacity: 0; */
+        visibility: hidden;
+        transform: translateY(70px);
+    }
+
+    to{
+        visibility: visible ;
+        /* opacity: 1; */
+        transform: translateY(0);
+
+    }
+}
+
+
+.box::before{
+    content: "";
+    position: absolute;
+    border-bottom: 1px solid white;
+    top: 0;
+    width: 90%;
+    height: 100%;
+    background-color: inherit;
+    animation: 3s linear 3s forwards go;
+}
+@keyframes go {
+    from{
+        height: 100%;
+    }
+    to{
+        height: 0;
+    }
+}
+
