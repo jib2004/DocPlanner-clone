@@ -10,7 +10,7 @@ ul li:hover ul li{
 
 .box {
     position: relative ;
-    animation:textMove 2s linear;
+    animation:textMove 1s linear;
     /* animation-delay: 5s; */
 }
 
@@ -59,7 +59,7 @@ ul li:hover ul li{
     width: 90%;
     height: 100%;
     background-color: inherit;
-    animation: 3s linear 3s forwards go;
+    animation: 2s linear 2s forwards go;
 }
 @keyframes go {
     from{
