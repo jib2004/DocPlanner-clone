@@ -52,6 +52,7 @@ ul li:hover ul li{
 
 .box::before{
     content: "";
+     /* z-index: 1; */
     position: absolute;
     border-bottom: 1px solid white;
     top: 0;
@@ -62,9 +63,12 @@ ul li:hover ul li{
 }
 @keyframes go {
     from{
+        
+        /* z-index: 1; */
         height: 100%;
     }
     to{
+        /* z-index: -1; */
         height: 0;
     }
 }

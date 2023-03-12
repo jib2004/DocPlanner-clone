@@ -25,6 +25,7 @@ body::selection {
 header {
   position: sticky;
   top: 0;
+  z-index: 4;
 }
 header::after {
   content: " ";
@@ -115,7 +116,7 @@ header div nav .ul_nav .special_li .drop {
   min-width: 250px;
   margin-left: -100px;
   padding: 0;
-  z-index: 1;
+  z-index: 4;
 }
 header div nav .ul_nav .special_li .drop::before {
   content: " ";
@@ -129,12 +130,14 @@ header div nav .ul_nav .special_li .drop li {
   width: 100%;
   border: 1px transparent;
   padding: 0 !important;
+  z-index: 4;
   margin: 0;
 }
 header div nav .ul_nav .special_li .drop li a {
   display: inline-block;
   padding: 5px 5px !important;
   line-height: 120%;
+  z-index: 4;
   width: calc(100% - 10px);
   border: 1px transparent;
 }
