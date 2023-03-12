@@ -452,7 +452,7 @@ header div nav .ul_nav .special_li .drop li a:hover {
   text-align: center;
   border-radius: 5px;
   width: 300px;
-  transition: all 1s;
+  transition: all 0.3s;
 }
 #countries .main_grid-container .grid-container .country-card:hover {
   box-shadow: 10px 10px 10px;
