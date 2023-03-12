@@ -145,6 +145,10 @@ header div nav .ul_nav .special_li .drop li a:hover {
   background: rgb(236, 234, 234);
 }
 
+.show {
+  visibility: visible !important;
+}
+
 @media (max-width: 576px) {
   #sect_1 {
     width: 100vw;
