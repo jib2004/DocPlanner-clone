@@ -228,6 +228,8 @@ header{
     }
     .sect_1_p{
         display: flex;
+        line-height: 1.9;
+
         //grid-template-columns: auto auto;
         // margin: 0 auto;
         // border: 1px solid;   
@@ -246,7 +248,7 @@ header{
         p{
             // width: 50%;
             padding: 10px;
-            line-height: 1.5;
+            
             width: calc( 500px - 1em);
             
             // margin: 0 auto;
@@ -267,6 +269,8 @@ header{
 #box_container{
 
     margin-top: 70px;
+
+    margin-bottom: 75px;
     .grid-container{
         display: grid;
         grid-template-columns: auto auto auto;

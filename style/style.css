@@ -171,6 +171,7 @@ header div nav .ul_nav .special_li .drop li a:hover {
 }
 #sect_1 div .sect_1_p {
   display: flex;
+  line-height: 1.9;
   justify-content: center;
 }
 @media (max-width: 576px) {
@@ -182,7 +183,6 @@ header div nav .ul_nav .special_li .drop li a:hover {
 }
 #sect_1 div .sect_1_p p {
   padding: 10px;
-  line-height: 1.5;
   width: calc(500px - 1em);
   text-align: justify;
 }
@@ -197,6 +197,7 @@ header div nav .ul_nav .special_li .drop li a:hover {
 
 #box_container {
   margin-top: 70px;
+  margin-bottom: 75px;
 }
 #box_container .grid-container {
   display: grid;
