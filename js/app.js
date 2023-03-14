@@ -3,6 +3,14 @@ const special_li = document.querySelector('.special_li')
 const dropdown_menu = document.querySelector('.drop')
 const show = document.querySelector(".show")
 
+window.addEventListener("load", ()=>{
+    document.querySelector(".loader").classList.add('loader-hidden')
+})
+
+window.addEventListener("transitioned", ()=>{
+    document.removeChild(document.querySelector(".loader"));
+})
+
 
 special_li.addEventListener('click',(e)=>{
     e.preventDefault;
